@@ -1,0 +1,12 @@
+.NavBar {
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listaItems {
+    display: inline-block;
+    margin: 2rem;
+    cursor: pointer;
+}
