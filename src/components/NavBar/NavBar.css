@@ -1,12 +1,22 @@
-.NavBar {
-    background-color: blanchedalmond;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.navbar {
+    background-color: #fad05f;
 }
 
-.listaItems {
-    display: inline-block;
-    margin: 2rem;
-    cursor: pointer;
+.nav-item {
+    margin: 0 3rem;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.listaLink {
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #000;
+
 }

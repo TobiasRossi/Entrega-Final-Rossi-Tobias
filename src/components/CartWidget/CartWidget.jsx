@@ -1,10 +1,10 @@
 import'./CartWidget.css'
 
 const CartWidget = () => {
-    const imagenCarrito = 'https://cdn-icons-png.flaticon.com/512/3394/3394009.png'
+    const imagenCarrito = 'https://cdn-icons-png.flaticon.com/512/116/116356.png'
     return (
         <div>
-            <img className='imgCarrito' src={imagenCarrito} alt="Carrito"/>
+            <img className='imgCarrito me-2' src={imagenCarrito} alt="Carrito"/>
             <strong>1</strong>
         </div>
     )
